@@ -6,3 +6,11 @@ Steps to Create a Local REPO and push it to remote repo
 4. add remote repo url -> git remote add origin url
 5. git push -u origin master
 
+Added error reference:
+https://github.com/nss-evening-cohort-13/student-help/issues/76
+https://spences10.medium.com/git-allow-unrelated-histories-a39a3814b981
+
+To merge -> unrelated commits
+https://stackoverflow.com/questions/16862933/how-to-resolve-gits-not-something-we-can-merge-error
+
+

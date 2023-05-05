@@ -56,3 +56,6 @@ git push origin <br_name>
 git reset --hard HEAD
 
 
+To compare the branch:
+Go to feature branch and -> git diff <br_to_compare>
+

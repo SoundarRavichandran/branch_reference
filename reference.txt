@@ -1,0 +1,8 @@
+Steps to Create a Local REPO and push it to remote repo
+
+1. Create a dir and run cmd -> git init
+2. create a file and add it to stage -> got add . or git add file_name
+3. commit the changes to local -> git commit -m ""
+4. add remote repo url -> git remote add origin url
+5. git push -u origin master
+

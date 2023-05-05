@@ -21,3 +21,12 @@ git push --set-upstream origin <branch_name>
 or
 git push -u origin br_name
 
+Steps to pull latest commits from main branch to feature branch:
+In main,
+1. merge the changes from different branch to master
+
+In feature branch, add a commit that is not yet pushed/ added to master
+
+
+
+

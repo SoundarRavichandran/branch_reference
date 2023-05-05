@@ -31,3 +31,28 @@ In main,
 
 In feature branch, add a commit that is not yet pushed/ added to master
 
+
+Pull the latest changes from main branch and merge with feature branch resolving conflicts:
+git checkout <feature_branch>
+git fetch origin main/ master
+git merge origin/(main/master)
+git add files
+git commit -m "msg"
+git push origin <br_name>
+
+---> if there are uncommited local changes:
+1. commit/ stash the local changes before merge
+ -> stash: git stash
+2. git fetch origin main/ master
+3. git merge origin/(main/ master)
+4. resolve conflicts
+5. git commit -m "merge message"
+6. apply stash changes -> git stash apply
+7. resolve conflicts
+8. commit the changes
+9. git push origin br_name
+
+--> To discard local changes:
+git reset --hard HEAD
+
+

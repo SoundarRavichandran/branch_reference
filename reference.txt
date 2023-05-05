@@ -13,4 +13,5 @@ https://spences10.medium.com/git-allow-unrelated-histories-a39a3814b981
 To merge -> unrelated commits
 https://stackoverflow.com/questions/16862933/how-to-resolve-gits-not-something-we-can-merge-error
 
-
+To create new branch: branch_1
+git checkout -b <branch_name>

@@ -15,3 +15,9 @@ https://stackoverflow.com/questions/16862933/how-to-resolve-gits-not-something-w
 
 To create new branch: branch_1
 git checkout -b <branch_name>
+
+To setup the local branch to remote:
+git push --set-upstream origin <branch_name>
+or
+git push -u origin br_name
+

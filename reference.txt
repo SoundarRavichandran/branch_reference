@@ -59,3 +59,11 @@ git reset --hard HEAD
 To compare the branch:
 Go to feature branch and -> git diff <br_to_compare>
 
+Ref: https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/
+To delete remote branch:
+git push origin --delete <branch_name>
+
+To delete local branch:
+git branch -d <b_name>
+force delete -> use -D
+
